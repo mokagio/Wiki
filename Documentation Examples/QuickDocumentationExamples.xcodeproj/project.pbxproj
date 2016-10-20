@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F00EE861DB8CD1B00C7028D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F00EE7B1DB8CD0700C7028D /* Quick.framework */; };
 		3F00EE9C1DB8CD6000C7028D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F00EE951DB8CD5200C7028D /* Nimble.framework */; };
+		3F00EEB01DB8CDB700C7028D /* TableOfContentsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00EEAF1DB8CDB700C7028D /* TableOfContentsSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		3F00EE621DB8C9B000C7028D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F00EE681DB8CD0700C7028D /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Externals/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		3F00EE871DB8CD5200C7028D /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Externals/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		3F00EEAF1DB8CDB700C7028D /* TableOfContentsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOfContentsSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				3F00EE621DB8C9B000C7028D /* Info.plist */,
+				3F00EEAF1DB8CDB700C7028D /* TableOfContentsSpec.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				TargetAttributes = {
 					3F00EE5C1DB8C9AF00C7028D = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -381,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F00EEB01DB8CDB700C7028D /* TableOfContentsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +526,7 @@
 				3F00EE641DB8C9B000C7028D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
