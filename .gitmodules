@@ -1,0 +1,3 @@
+[submodule "Documentation Examples/Externals/Quick"]
+	path = Documentation Examples/Externals/Quick
+	url = git@github.com:Quick/Quick
