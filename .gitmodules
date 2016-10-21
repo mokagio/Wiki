@@ -1,6 +1,6 @@
 [submodule "Documentation Examples/Externals/Quick"]
 	path = Documentation Examples/Externals/Quick
-	url = git@github.com:Quick/Quick
+	url = https://github.com/Quick/Quick
 [submodule "Documentation Examples/Externals/Nimble"]
 	path = Documentation Examples/Externals/Nimble
-	url = git@github.com:Quick/Nimble
+	url = https://github.com/Quick/Nimble
