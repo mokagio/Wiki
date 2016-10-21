@@ -1,0 +1,14 @@
+language: objective-c
+osx_image: xcode8
+
+before_script:
+  - pushd ./Documentation\ Examples > /dev/null
+
+script:
+  # Workaround for Simulator getting stuck
+  # See: https://github.com/travis-ci/travis-ci/issues/3040#issuecomment-146700203
+  - open -b com.apple.iphonesimulator
+  - ./script/test
+
+after_script:
+  - popd > /dev/null
