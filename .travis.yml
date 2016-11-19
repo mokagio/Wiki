@@ -7,7 +7,6 @@ before_script:
 script:
   # Workaround for Simulator getting stuck
   # See: https://github.com/travis-ci/travis-ci/issues/3040#issuecomment-146700203
-  - bundle install
   - open -b com.apple.iphonesimulator
   - ./script/test
 
