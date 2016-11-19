@@ -1,0 +1,9 @@
+target 'Examples' do
+  use_frameworks!
+
+  target 'ExamplesTests' do
+    inherit! :search_paths
+    pod 'Quick'
+    pod 'Nimble'
+  end
+end
